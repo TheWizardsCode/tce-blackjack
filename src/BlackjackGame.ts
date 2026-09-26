@@ -10,7 +10,7 @@
  * state collections (deck, player hand, dealer hand) use the
  * {@link Pile} abstraction from the card system.
  *
- * @module example-games/blackjack/BlackjackGame
+ * @module src/BlackjackGame
  */
 
 import type { Card } from '@card-system/Card';

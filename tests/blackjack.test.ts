@@ -25,7 +25,7 @@ import {
   revertDeal,
   type BlackjackGameState,
   type BlackjackHand,
-} from '../example-games/blackjack/BlackjackGame';
+} from '../src/BlackjackGame';
 
 // ── Test helpers ──────────────────────────────────────────
 

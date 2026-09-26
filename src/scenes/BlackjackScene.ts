@@ -6,7 +6,7 @@
  * and a game-over overlay.  Uses the shared card-system types
  * for card representation and core-engine for layout.
  *
- * @module example-games/blackjack/scenes/BlackjackScene
+ * @module src/scenes/BlackjackScene
  */
 
 import Phaser from 'phaser';

@@ -19,7 +19,7 @@ import Phaser from 'phaser';
 import { waitForScene } from '@core-tests/helpers/waitForScene';
 import {
   createBlackjackGameState,
-} from '../../example-games/blackjack/BlackjackGame';
+} from '../../src/BlackjackGame';
 import { cardTextureKey } from '@ui/CardTextureHelpers';
 import { setReducedMotion } from '@ui/SettingsStore';
 
@@ -45,7 +45,7 @@ async function bootGame(): Promise<Phaser.Game> {
   document.body.appendChild(container);
 
   const { createBlackjackGame } = await import(
-    '../../example-games/blackjack/createBlackjackGame'
+    '../../src/createBlackjackGame'
   );
   const game = createBlackjackGame({ type: Phaser.CANVAS });
   await waitForScene(game, SCENE_KEY);
