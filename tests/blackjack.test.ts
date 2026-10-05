@@ -8,9 +8,9 @@
  */
 
 import { describe, it, expect, beforeEach } from 'vitest';
-import type { Card } from '../src/card-system/Card';
-import type { Rank } from '../src/card-system/Card';
-import { Pile } from '../src/card-system/Pile';
+import type { Card } from '@card-system/Card';
+import type { Rank } from '@card-system/Card';
+import { Pile } from '@card-system/Pile';
 import {
   createBlackjackGameState,
   getScore,
